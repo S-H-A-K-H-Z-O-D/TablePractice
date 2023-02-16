@@ -1,0 +1,46 @@
+.table{
+    border: 1px red solid;
+    border-collapse: collapse;
+    margin: 200px;
+
+    &__head{
+        background-color: aqua;
+    }
+
+    &__body{
+        background-color: rgb(201, 239, 239);
+
+        &__row{
+        
+           &:nth-child(2n){
+           background-color: rgb(67, 128, 128);
+           color: white;}
+
+           &:hover{
+            background-color: aquamarine;
+           }
+        }
+    }
+}
+
+th, td{
+    border: 1px black solid;
+    padding: 10px 20px;
+}
+
+.btn{
+    padding: 5px 10px;
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    &--success{
+        background-color: rgba(125, 206, 125, 0.693);
+        color: black;
+    }
+    &--danger{
+        background-color: red;
+        color: white;
+    }
+}
