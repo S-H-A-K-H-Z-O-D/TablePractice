@@ -1,3 +1,8 @@
+main{
+    display: flex;
+    align-items: center;
+}
+
 .table{
     border: 1px red solid;
     border-collapse: collapse;
@@ -43,4 +48,11 @@ th, td{
         background-color: red;
         color: white;
     }
+}
+
+// Section__2
+
+.table2{
+    border-collapse: collapse;
+    text-align: center;
 }
